@@ -36,8 +36,8 @@ A simple and effective **Pomodoro Timer** built using **React Native**, designed
 npm install -g expo-cli
 ```
 - Install Expo Go App on your phone:
-[Android (Google Play)](https://play.google.com/store/apps/details?id=host.exp.exponent)
-[iOS (App Store)](https://apps.apple.com/us/app/expo-go/id982107779)
+ - [Android (Google Play)](https://play.google.com/store/apps/details?id=host.exp.exponent)
+ - [iOS (App Store)](https://apps.apple.com/us/app/expo-go/id982107779)
 
 ---
 
