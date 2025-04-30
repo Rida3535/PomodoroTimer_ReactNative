@@ -1,50 +1,74 @@
-# Welcome to your Expo app 👋
+# ⏱️ Pomodoro Timer (React Native Version)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple and effective **Pomodoro Timer** built using **React Native**, designed to help users focus and boost productivity by following the Pomodoro Technique on their mobile devices.
 
-## Get started
+---
 
-1. Install dependencies
+## 🌟 Features
 
-   ```bash
-   npm install
-   ```
+- ⏰ Focus and break session timers  
+- 🔁 Auto-transition between sessions  
+- 🎨 Light/Dark mode toggle  
+- 📱 Mobile-native experience  
+- 💾 Persistent session data (if implemented)  
 
-2. Start the app
+---
 
-   ```bash
-    npx expo start
-   ```
+## 🛠️ Tech Stack
 
-In the output, you'll find options to open the app in a
+- **React Native** – Mobile UI  
+- **Expo** – Development & testing framework  
+- **React Navigation** (optional) – For screen transitions  
+- **AsyncStorage** (optional) – To save settings like theme/timer progress  
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 📥 How to Access This Project Locally
 
-## Get a fresh project
+> This app is not deployed to the Play Store or App Store. You can run it locally on your device or emulator using Expo.
 
-When you're ready, run:
+### 1. Prerequisites
+
+- Install **Node.js**: [https://nodejs.org](https://nodejs.org)  
+- Install **Expo CLI** globally:
 
 ```bash
-npm run reset-project
+npm install -g expo-cli
 ```
+- Install Expo Go App on your phone:
+[Android (Google Play)](https://play.google.com/store/apps/details?id=host.exp.exponent)
+[iOS (App Store)](https://apps.apple.com/us/app/expo-go/id982107779)
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+### 2. Clone the Repository
+```bash
+git clone https://github.com/your-username/pomodoro-react-native.git
+cd pomodoro-react-native
+```
+---
 
-To learn more about developing your project with Expo, look at the following resources:
+### 3. Install Dependencies
+```bash
+npm install
+```
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### 4. Start the App
+```bash
+expo start
+```
+This will open Expo Dev Tools in your browser. You can:
 
-## Join the community
+-Scan the QR code with the Expo Go App on your phone (same WiFi network)
+-Press a to open the Android emulator (if set up)
+-Press i to open the iOS simulator (Mac only)
 
-Join our community of developers creating universal apps.
+---
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### 📃 License
+This project is licensed under the MIT License.
+
+---
+
+Made with ☕ + 🧠 using React Native to support learning and productivity on the go.
