@@ -60,9 +60,9 @@ expo start
 ```
 This will open Expo Dev Tools in your browser. You can:
 
--Scan the QR code with the Expo Go App on your phone (same WiFi network)
--Press a to open the Android emulator (if set up)
--Press i to open the iOS simulator (Mac only)
+- Scan the QR code with the Expo Go App on your phone (same WiFi network)
+- Press a to open the Android emulator (if set up)
+- Press i to open the iOS simulator (Mac only)
 
 ---
 
